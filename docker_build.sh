@@ -1,1 +1,1 @@
-docker build -t coursera-dl:2.0 .
+docker build -t fuadar/coursera-dl:2.0 .
