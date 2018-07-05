@@ -15,7 +15,7 @@ ENV  LANG en_US.UTF-8
 
 #COPY get-pip.py /data
 RUN python3.4 get-pip.py
-RUN  python3.4  -m pip install -U coursera-dlurllib3 pyasn1 ndg-httpsclient pyOpenSSL
+RUN  python3.4  -m pip install -U coursera-dl urllib3 pyasn1 ndg-httpsclient pyOpenSSL
 
 
 CMD ["/bin/bash"]
